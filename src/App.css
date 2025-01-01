@@ -1,5 +1,13 @@
-.body{
-    background-color: #f0f0f0;
-    box-sizing: border-box;
-    padding: 2rem;
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  color: white;
+}
+
+header > .icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
